@@ -1,0 +1,132 @@
+body {
+    background-color: teal;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 50px;
+}
+
+h1 {
+    font-size: 4em;
+    margin: 0px auto;
+    margin-bottom: 1%;
+}
+
+h2 {
+    font-size: 2em;
+    margin: 0px auto;
+}
+
+h3 {
+    margin-left: 10px;
+}
+.top-txt-hld {
+    text-align: left;
+    margin-left: 20em;
+}
+
+.buttons-container {
+    margin: 20px;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    justify-self: center;
+}
+
+.buttons-container button {
+    margin: 5px;
+}
+
+.infoholder {
+    display: flex;
+    justify-content: space-around; /* Distribute space evenly */
+}
+
+canvas {
+    margin-top: 5em;
+    width: 1200px;
+    height: 1200px;
+    margin-left: 2em;
+    background-color: white;
+    border: 2px solid white;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: white;
+    color: teal;
+    border: 2px solid teal;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: lightgray;
+}
+
+p {
+    font-size: 1.2em;
+}
+
+#company-table {
+    width: 22.5%;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+    margin-top: 2.5%;
+}
+.navholdercont{
+    display: flex;
+    margin-top: 2%;
+    margin-left: 2%;
+    font-size: 24px;
+}
+#company-table thead {
+    background-color: #004d4d;
+    color: white;
+    text-align: left;
+}
+.predb { 
+    border-radius: 12px;
+    width: 165px;
+    height: 60px;
+    margin-left: 2%;
+    margin-top: 1%;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    vertical-align: center;
+}
+#company-table th, #company-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#company-table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+#company-table tr:nth-child(even) {
+    background-color: #e6ffff;
+}
+
+#company-table tr:nth-child(odd) {
+    background-color: #ccffff;
+}
+
+#company-table tr:hover {
+    background-color: #b3ffff;
+}
+
+#company-table td {
+    text-align: left;
+    color: #004d4d;
+}
+
+#company-table th {
+    background-color: #004d4d;
+    color: white;
+    text-align: center;
+}

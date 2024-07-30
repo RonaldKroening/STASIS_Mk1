@@ -1,0 +1,78 @@
+/* Reset some default browser styles */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+input{
+    width: 60%;
+    padding: 10px;
+    margin-top: 3%;
+    border-radius: 12px;
+    border: #ffffffff;
+    height: 30px;
+    font-size: 20px;
+}
+table {
+    border-collapse: collapse;
+    border: 4px solid black; /* 4px black border for the table */
+    margin-left: 2%;
+}
+
+
+/* Style table header */
+th {
+    background-color: #0c343dff; /* Light gray background for header row */
+}
+
+/* Add border to table cells and rows */
+td, th {
+    border: 1px solid black; /* 1px black border for cells and rows */
+    padding: 8px; /* Add padding for better readability */
+}
+
+/* Apply styles to the body element */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #a2c4c9ff;
+}
+
+/* Style the header element */
+header {
+
+    padding: 10px;
+    text-align: center;
+}
+tr:first-child {
+    color: rgb(255, 255, 255); /* Font color for the first row */
+}
+
+/* Style the main content section */
+
+/* Style headings and paragraphs */
+h1, h2, p {
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+h2 {
+    font-size: 20px;
+    color: #333;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Style the footer element */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+}
+
+/* Add additional styles as needed */

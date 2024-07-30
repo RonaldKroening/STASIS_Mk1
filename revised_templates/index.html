@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <title>Sample HTML with Teal Background</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="top-txt-hld">
+        <h1>Apple Technologies | AAPL</h1>
+        <h2>Consumer Electronics | Technology</h2>
+    </div>
+    <div>
+        <div class="infoholder">
+            <table id="company-table">
+                <thead>
+                    <tr>
+                        <th id="header-company">Company Information</th>
+                        <th id="header-data">Data</th>
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+            <div>
+                <div id="navcondiv"class="navholdercont">
+                    <div id="navinfoholders" style="display: flex;">
+                    </div>
+                    
+                    <button class="predb" onclick="predict">Predict</button>
+                </div>
+                <canvas id="myChart"></canvas>
+                <div class="buttons-container">
+                    <button onclick="updateChart('day')">Day</button>
+                    <button onclick="updateChart('week')">Week</button>
+                    <button onclick="updateChart('month')">Month</button>
+                    <button onclick="updateChart('year')">Year</button>
+                </div>
+            </div>
+            
+
+        </div>  
+    </div>
+    <div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,65 @@
+{
+    "_id": {
+      "$oid": "65067ba7a0c8d9fb348f737a"
+    },
+    "TCKR": "AAPL",
+    "NAME": "Apple Inc.",
+    "DESC": "Apple Inc. is a technology giant renowned for its innovative hardware, software, and services, including the iPhone, Mac, and iOS ecosystem.",
+    "INDUSTRY": "Consumer Electronics",
+    "SECTOR": "Technology",
+    "DJIA": {
+      "$numberInt": "1"
+    },
+    "SP500": {
+      "$numberInt": "1"
+    },
+    "marketItems": {
+      "Stock Price": {
+        "$numberDouble": "178.39"
+      },
+      "Net Income": {
+        "$numberDouble": "19881000000.0"
+      },
+      "Revenues": {
+        "$numberDouble": "81797000000.0"
+      },
+      "Profit Margin": {
+        "$numberDouble": "24.305292370135824"
+      },
+      "Total Liabilities": {
+        "$numberDouble": "274764000000.0"
+      },
+      "Total Equity": {
+        "$numberDouble": "60274000000.0"
+      },
+      "Debt-to-Equity Ratio": {
+        "$numberDouble": "4.558582473371603"
+      },
+      "Basic EPS": {
+        "$numberDouble": "1.27"
+      },
+      "Diluted EPS": {
+        "$numberDouble": "1.26"
+      },
+      "Free Cash Flow": {
+        "$numberDouble": "2769000000.0"
+      },
+      "Sales per Share": {
+        "$numberDouble": "4.11433026507721"
+      },
+      "Market Capitalization": {
+        "$numberDouble": "733.9553759871234"
+      },
+      "Dividend Yield": {
+        "$numberDouble": "0.0"
+      },
+      "P/E Ratio": {
+        "$numberDouble": "3.6917427492939154e-8"
+      },
+      "P/S Ratio": {
+        "$numberDouble": "8.972888687691766e-9"
+      }
+    },
+    "dividend_yield": "0.96 @ 2023-09-20"
+  }
+  
