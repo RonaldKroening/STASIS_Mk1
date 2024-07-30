@@ -13,10 +13,10 @@ from tensorflow.keras.layers import LSTM, Dense
 import datetime
 
 
-api_key = "ROFX6T3DF0LVOPUZ"
+api_key = ""
 
 # https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol=IBM&outputsize=full&apikey=api_key
-password = "tcZ5WSsJnu5W5aeX"
+password = ""
 def get_client():
     
     uri = "mongodb+srv://ronald_kroening_64:"+password+"@cluster0.0qo2iwi.mongodb.net/?retryWrites=true&w=majority&appName=AtlasApp"
@@ -24,7 +24,7 @@ def get_client():
     client = pymongo.MongoClient(uri)
     return client
 from pymongo.mongo_client import MongoClient
-uri = "mongodb+srv://ronald_kroening_64:tcZ5WSsJnu5W5aeX@cluster0.0qo2iwi.mongodb.net/?retryWrites=true&w=majority&appName=AtlasApp"
+uri = ""
 print(uri)
 # Create a new client and connect to the server
 client = MongoClient(uri)
