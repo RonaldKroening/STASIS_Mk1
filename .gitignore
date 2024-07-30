@@ -1,0 +1,6 @@
+venv/
+venv/
+*.dylib
+*.dll
+*.so
+*.exe
